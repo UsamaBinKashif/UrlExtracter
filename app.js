@@ -2,7 +2,7 @@ var theElement = document.getElementById('demo');
 
 theElement.addEventListener("touchend", handlerFunction, false);
 
-function myFunction() {
+function myFunction(event) {
     let url = document.getElementById('ip').value;
     let exurl = (new URL(url));
     let domian = exurl.hostname;
