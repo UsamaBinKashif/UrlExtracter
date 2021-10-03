@@ -1,6 +1,8 @@
-var theElement = document.getElementById('demo');
+function mobilePress(e) {
+    e.target.value = e.target.value.replace(/[^d]/g, '');
+    return false;
+}
 
-theElement.addEventListener("touchend", handlerFunction, false);
 
 function myFunction(event) {
     let url = document.getElementById('ip').value;
