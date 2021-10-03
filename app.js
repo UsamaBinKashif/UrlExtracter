@@ -1,3 +1,7 @@
+var theElement = document.getElementById('demo');
+
+theElement.addEventListener("touchend", handlerFunction, false);
+
 function myFunction() {
     let url = document.getElementById('ip').value;
     let exurl = (new URL(url));
@@ -6,7 +10,7 @@ function myFunction() {
     let change = domian.replace('www.', ' ');
     document.getElementById('rs2').innerHTML = ('<span style="color:#FFC107;">Host name is : </span>' + ' ' + change);
 
-  
-    
+
+
 
 }
