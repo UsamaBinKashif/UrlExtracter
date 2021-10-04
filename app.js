@@ -1,7 +1,4 @@
-function mobilePress(e) {
-    e.target.value = e.target.value.replace(/[^d]/g, '');
-    return false;
-}
+
 
 
 function myFunction(event) {
