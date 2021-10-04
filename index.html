@@ -8,7 +8,10 @@
     <!-- css link -->
     <link rel="stylesheet" href="style.css">
     <!--Icons-->
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
@@ -22,23 +25,52 @@
 
         <input id="ip" class="intxt">
 
-        <div class="btnmain">
-            <button id="demo" class="btn btn-warning bb" onclick="myFunction()" onkeyup="mobilePress(e)">
-                Extract
-            </button>
-            <button class="btn btn-warning bb bb1" onclick="location.reload()">Relod</button>
-        </div>
-        <div class="main2">
-            <h5 id="rs1" class="head1"></h5>
-            <h5 id="rs2" class="head2"></h5>
-        </div>
-        <h6 class="heading2">Developed By Usama Ahmed</h6>
-        <div class="icons">
-            <a href="https://www.facebook.com/usamasheikh22/" target="_blank"><i class="fab fa-facebook  f"></i></a>
-            <a href="https://www.instagram.com/brownandproud._/"  target="_blank"><i class="fab fa-instagram  in"></i></a>
-            <a href="https://github.com/UsamaBinKashif"  target="_blank"><i class="fab fa-github gi"></i></a>
-        </div>
     </div>
+
+    <div class="btnmain">
+
+        <a onclick="myFunction()" class="exe">
+            &nbsp;
+            Extract 
+            <lord-icon src="https://cdn.lordicon.com/pndvzexs.json"
+                trigger="loop" colors="primary:#ffc107,secondary:#ffc107" style="width:50px;height:50px">
+            </lord-icon>
+        </a>
+        <a onclick="location.reload()" class="re">
+            &nbsp;
+            Reload
+            <lord-icon src="https://cdn.lordicon.com/xjovhxra.json" trigger="loop"
+                colors="primary:#ffc107,secondary:#08a88a" style="width:50px;height:50px">
+            </lord-icon>
+        </a>
+    </div>
+
+
+    <div class="main2">
+        <h5 id="rs1" class="head1"></h5>
+        <h5 id="rs2" class="head2"></h5>
+    </div>
+
+
+    <div class="foot">
+
+        <h6 class="heading2">Developed By Brown Dev</h6>
+    </div>
+    <div class="icons">
+        <a href="https://www.facebook.com/usamasheikh22/" target="_blank"><i class="fab fa-facebook  f"></i></a>
+        <a href="https://www.instagram.com/brownandproud._/" target="_blank"><i class="fab fa-instagram  in"></i></a>
+        <a href="https://github.com/UsamaBinKashif" target="_blank"><i class="fab fa-github gi"></i></a>
+    </div>
+
+
+
+
+
+
+
+
+
+
 
     <!-- JavaScript -->
     <script src="app.js"></script>
